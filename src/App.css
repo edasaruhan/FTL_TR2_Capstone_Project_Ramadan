@@ -1,0 +1,86 @@
+/* App.css */
+
+body,
+html,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.night-mode {
+    background: #222;
+    color: white;
+}
+
+.day-mode {
+    background: #fff;
+    color: black;
+}
+
+.home-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    color: #fff;
+}
+
+.hero-content p {
+    color: #ddd;
+}
+
+.cta-button {
+    background: #f90;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+}

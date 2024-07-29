@@ -1,0 +1,34 @@
+/* Home.css */
+
+.home-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    color: #fff;
+}
+
+.hero-content p {
+    color: #ddd;
+}
+
+.cta-button {
+    background: #f90;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+}
